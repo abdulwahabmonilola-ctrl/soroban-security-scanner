@@ -15,7 +15,6 @@ examples/*/target/
 
 # IDE / editor
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -39,11 +38,11 @@ venv/
 .scanner-cache/
 
 # Secrets / environment
-.env
-.env.*
 !.env.example
 *.pem
 *.key
 
 # Temporary
 /tmp/
+config.bat
+node_modules
